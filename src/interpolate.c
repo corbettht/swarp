@@ -299,7 +299,7 @@ void	make_kernel(double pos, double *kernel, interpenum interptype)
 	      }
 	    else
 	      {
-	      x = -PI/2.0*(pos+1.0);
+	      x = -PI/1.0*(pos+1.0);
 	#ifdef HAVE_SINCOS
 	      sincos(x, &sinx1, &cosx1);
 	#else
